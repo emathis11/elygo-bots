@@ -1,0 +1,15 @@
+
+This is the GNU Go Android application for ElyGo.
+
+It requires the ElyGo library (elygo-lib) which can be found here :
+
+https://github.com/Daimas/elygo-lib
+
+It contains two folders (projects) : "elygo-lib" and "ActionBarSherlock".
+Add references to both of them in your project.
+
+
+               *** LICENSE ***
+
+All files are under the GNU General Public License, which may be found in
+the file COPYING.
