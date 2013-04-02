@@ -2,7 +2,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="lrstudios.games.gnugo"
-          android:versionCode="4"
+          android:versionCode="6"
           android:versionName="@string/app_version">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
