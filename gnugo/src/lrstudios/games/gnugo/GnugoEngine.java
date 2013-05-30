@@ -3,6 +3,8 @@ package lrstudios.games.gnugo;
 import android.content.Context;
 import lrstudios.games.ego.lib.GtpEngine;
 
+import java.util.Properties;
+
 
 public class GnugoEngine extends GtpEngine
 {
@@ -28,7 +30,7 @@ public class GnugoEngine extends GtpEngine
     }
 
     @Override
-    public boolean init()
+    public boolean init(Properties props)
     {
         if (!init)
         {
