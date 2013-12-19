@@ -2,7 +2,6 @@
     <!-- Default locale: EN (English) -->
 
     <string name="app_name">GNU Go</string>
-    <string name="app_version">1.03</string>
 
     <string name="newgame_activity">GNU Go - New game</string>
 </resources>
