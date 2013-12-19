@@ -2,14 +2,14 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="lrstudios.games.gnugo"
-    android:versionCode="6"
-    android:versionName="@string/app_version">
+    android:versionCode="7"
+    android:versionName="1.1">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <uses-sdk
         android:minSdkVersion="7"
-        android:targetSdkVersion="16" />
+        android:targetSdkVersion="18" />
 
     <supports-screens
         android:anyDensity="true"
@@ -19,6 +19,7 @@
         android:xlargeScreens="true" />
 
     <application
+        android:allowBackup="true"
         android:label="@string/app_name"
         android:icon="@drawable/ic_home"
         android:theme="@style/AppThemeLight">
@@ -32,20 +33,18 @@
                 <action android:name="net.lrstudios.elygo.START_ENGINE" />
 
                 <category android:name="android.intent.category.DEFAULT" />
-                <!--
                     <category android:name="android.intent.category.LAUNCHER" />
-                -->
             </intent-filter>
         </activity>
 
         <activity
             android:name="lrstudios.games.ego.lib.ui.GtpBoardActivity"
             android:uiOptions="splitActionBarWhenNarrow"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"/>
 
         <activity
             android:name="lrstudios.games.ego.lib.ui.Preferences"
-            android:label="@string/preferences_title"></activity>
+            android:label="@string/preferences_title"/>
 
     </application>
 
