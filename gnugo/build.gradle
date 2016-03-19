@@ -8,8 +8,8 @@ android {
         applicationId "lrstudios.games.gnugo"
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 9
-        versionName "1.21"
+        versionCode 11
+        versionName "2.01"
     }
 
     signingConfigs {
