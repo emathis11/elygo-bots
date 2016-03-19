@@ -1,17 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="lrstudios.games.gnugo"
-    android:versionCode="9"
-    android:versionName="1.21">
+    package="lrstudios.games.gnugo">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
-    <uses-sdk
-        android:minSdkVersion="7"
-        android:targetSdkVersion="19" />
 
     <supports-screens
         android:anyDensity="true"
@@ -41,13 +33,10 @@
 
         <activity
             android:name="lrstudios.games.ego.lib.ui.GtpBoardActivity"
-            android:uiOptions="splitActionBarWhenNarrow"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
 
         <activity
             android:name="lrstudios.games.ego.lib.ui.Preferences"
             android:label="@string/preferences_title"/>
-
     </application>
-
 </manifest>

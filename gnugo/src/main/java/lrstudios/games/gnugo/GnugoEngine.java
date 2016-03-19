@@ -1,13 +1,12 @@
 package lrstudios.games.gnugo;
 
 import android.content.Context;
+
 import lrstudios.games.ego.lib.GtpEngine;
 
 import java.util.Properties;
 
-
-public class GnugoEngine extends GtpEngine
-{
+public class GnugoEngine extends GtpEngine {
     private static final String ENGINE_NAME = "GNU Go";
     private static final String VERSION = "3.8";
 
@@ -17,23 +16,17 @@ public class GnugoEngine extends GtpEngine
 
     private native String playGtp(String pInput);
 
-
-    static
-    {
+    static {
         System.loadLibrary("gnuGo-3.8");
     }
 
-
-    public GnugoEngine(Context context)
-    {
+    public GnugoEngine(Context context) {
         super(context);
     }
 
     @Override
-    public boolean init(Properties props)
-    {
-        if (!init)
-        {
+    public boolean init(Properties props) {
+        if (!init) {
             initGtp(8);
             init = true;
         }
@@ -41,20 +34,17 @@ public class GnugoEngine extends GtpEngine
     }
 
     @Override
-    public String sendGtpCommand(String command)
-    {
+    public String sendGtpCommand(String command) {
         return playGtp(command);
     }
 
     @Override
-    public String getName()
-    {
+    public String getName() {
         return ENGINE_NAME;
     }
 
     @Override
-    public String getVersion()
-    {
+    public String getVersion() {
         return VERSION;
     }
 }

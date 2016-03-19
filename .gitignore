@@ -1,0 +1,12 @@
+.gradle
+.DS_Store
+/local.properties
+/.idea
+/.gradle
+/captures
+/build
+*/build
+
+*.iml
+make_release.bat
+*.keystore

@@ -1,0 +1,2 @@
+include ':elygo-lib', ':gnugo'
+project(':elygo-lib').projectDir = new File('../elygo-lib')
