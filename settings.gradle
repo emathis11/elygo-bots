@@ -1,2 +1,3 @@
-include ':elygo-lib', ':gnugo'
+include ':lrapps-lib', ':elygo-lib', ':gnugo'
 project(':elygo-lib').projectDir = new File('../elygo-lib')
+project(':lrapps-lib').projectDir = new File('../lrapps-lib')
