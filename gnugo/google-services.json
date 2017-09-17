@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "890574976121",
+    "firebase_url": "https://elygo-d3bcb.firebaseio.com",
+    "project_id": "elygo-d3bcb",
+    "storage_bucket": "elygo-d3bcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890574976121:android:ade3801e38706eb0",
+        "android_client_info": {
+          "package_name": "lrstudios.games.ego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890574976121-cvbep628inupk4351rqma32facp9pjs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0BVmrb_kiTf5qRbF25JDjbscMsLOb_Vw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890574976121:android:d11a05fc665040fd",
+        "android_client_info": {
+          "package_name": "lrstudios.games.ego.lite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890574976121-cvbep628inupk4351rqma32facp9pjs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0BVmrb_kiTf5qRbF25JDjbscMsLOb_Vw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890574976121:android:835cc182404227ea",
+        "android_client_info": {
+          "package_name": "lrstudios.games.gnugo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890574976121-cvbep628inupk4351rqma32facp9pjs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0BVmrb_kiTf5qRbF25JDjbscMsLOb_Vw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

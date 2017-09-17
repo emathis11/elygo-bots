@@ -26,8 +26,8 @@ android {
         applicationId 'lrstudios.games.gnugo'
         minSdkVersion 21
         targetSdkVersion 25
-        versionCode 13
-        versionName '2.03'
+        versionCode 14
+        versionName '2.04'
     }
 
     signingConfigs {
@@ -75,3 +75,5 @@ dependencies {
 
     compile fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
 }
+
+apply plugin: 'com.google.gms.google-services'
