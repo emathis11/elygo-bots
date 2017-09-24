@@ -8,6 +8,5 @@
 */build
 
 *.iml
-make_release.bat
 *.keystore
 *.apk
