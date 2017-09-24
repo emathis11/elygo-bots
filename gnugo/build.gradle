@@ -26,8 +26,8 @@ android {
         applicationId 'lrstudios.games.gnugo'
         minSdkVersion 21
         targetSdkVersion 25
-        versionCode 14
-        versionName '2.04'
+        versionCode 15
+        versionName '2.05'
     }
 
     signingConfigs {
